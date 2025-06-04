@@ -2,3 +2,14 @@ body {
   background-color: rgb(41,41,41);
   color: white;
 }
+
+header {
+  position: sticky;
+  top: 0;
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  font-size: 20px;
+  z-index: 1000; /* 確保永遠顯示在最上層 */
+}
