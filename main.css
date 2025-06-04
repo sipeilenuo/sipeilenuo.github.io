@@ -3,7 +3,7 @@ body {
   color: white;
 }
 
-header {
+.topheader {
   position: sticky;
   top: 0;
   background-color: #333;
@@ -11,5 +11,5 @@ header {
   padding: 20px;
   text-align:left;
   font-size: 20px;
-  z-index: 1000; /* 確保永遠顯示在最上層 */
+  z-index: 1000; /* 最上層 */
 }
