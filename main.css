@@ -15,15 +15,17 @@ body {
 }
 
 .top-role-ayn-btn {
-  background-color: white;
+  background-color: rgb(122,122,122);
   color: black;
   border: 1px solid black;
   padding: 8px 16px;
   cursor: pointer;
   font-size: 16px;
+  border-radius: 10px;
 }
 
 .top-role-ayn-btn.active {
-  background-color: black;
+  background-color: rgb(224,224,224);
   color: white;
+  border-radius: 10px;
 }
