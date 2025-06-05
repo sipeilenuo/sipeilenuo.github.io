@@ -13,3 +13,17 @@ body {
   font-size: 20px;
   z-index: 1000; /* 最上層 */
 }
+
+.top-role-ayn-btn {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  padding: 8px 16px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.top-role-ayn-btn.active {
+  background-color: black;
+  color: white;
+}
