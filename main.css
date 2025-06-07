@@ -14,17 +14,17 @@ body {
   z-index: 1000; /* 最上層 */
 }
 
-.top-role-ayn-btn {
+.top-role-btn {
   background-color: rgb(122,122,122);
   color: white;
-  border: 1px solid black;
+  border: 2px solid black;
   padding: 8px 16px;
   cursor: pointer;
   font-size: 16px;
   border-radius: 10px;
 }
 
-.top-role-ayn-btn.active {
+.top-role-btn.active {
   background-color: rgb(224,224,224);
   color: rgb(0, 127, 255);
   border-radius: 10px;

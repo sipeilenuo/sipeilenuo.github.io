@@ -8,11 +8,11 @@
 <body >
   <div class="topheader">
     ForAllTime
-	<button class="top-role-ayn-btn" onclick="rolechoose(this)">艾因</button>
-	<button class="top-role-alkaid-btn" onclick="rolechoose()">路辰</button>
-	<button class="top-role-rorschach-btn" onclick="rolechoose()">羅夏</button>
-	<button class="top-role-clarence-btn" onclick="rolechoose()">司嵐</button>
-	<button class="top-role-emerald-btn" onclick="rolechoose()">葉瑄</button>
+	<button data-role="ayn" class="top-role-btn" onclick="rolechoose(this.dataset.role)">艾因</button>
+	<button data-role="alkaid" class="top-role-btn" onclick="rolechoose(this.dataset.role)">路辰</button>
+	<button data-role="rorschach" class="top-role-btn" onclick="rolechoose(this.dataset.role)">羅夏</button>
+	<button data-role="clarence" class="top-role-btn" onclick="rolechoose(this.dataset.role)">司嵐</button>
+	<button data-role="emerald" class="top-role-btn" onclick="rolechoose(this.dataset.role)">葉瑄</button>
   </div>
   <h1>test1.8</h1>
   <script src="main.js"></script>
