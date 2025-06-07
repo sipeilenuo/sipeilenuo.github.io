@@ -16,7 +16,7 @@ body {
 
 .top-role-ayn-btn {
   background-color: rgb(122,122,122);
-  color: black;
+  color: white;
   border: 1px solid black;
   padding: 8px 16px;
   cursor: pointer;
@@ -26,6 +26,6 @@ body {
 
 .top-role-ayn-btn.active {
   background-color: rgb(224,224,224);
-  color: white;
+  color: black;
   border-radius: 10px;
 }
