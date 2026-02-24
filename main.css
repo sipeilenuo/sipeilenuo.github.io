@@ -31,7 +31,8 @@ body {
   border: 2px solid #0080FF;
 }
 
-.is-hidden {
+.visible-false {
     display: none;
 }
+
 
