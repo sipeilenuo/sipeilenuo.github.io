@@ -6,11 +6,12 @@ function rolechoose(button) {
 
 function tkrb_vis(button) {
   const tkrblist = document.getElementById("alltkrb");
-  tkrblist.classList.toggle('visible-false');
+  const isHidden = tkrblist.classList.toggle('visible-false');
   
   button.classList.toggle('active');
   button.textContent = isHidden ? "顯示" : "隱藏";
 }
+
 
 
 
