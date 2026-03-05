@@ -1,7 +1,22 @@
-
 fetch("item.json")
-  .then(r => r.text())
-  .then(t => console.log(t.charCodeAt(0)));
+  .then(res => res.json())
+  .then(data => {
+    const container = document.getElementById("alltkrb");
+    data.forEach(item => {
+    
+      const label = document.createElement("label");
+      label.style.display = "block";
+    
+      const checkbox = document.createElement("input");
+      checkbox.type = "checkbox";
+      checkbox.value = item.id;
+    
+      label.appendChild(checkbox);
+      label.appendChild(document.createTextNode(` ${item.id} - ${item.name}`));
+    
+      container.appendChild(label);
+    });
+  });
 
 function rolechoose(button) {
   button.classList.toggle('active');
@@ -16,6 +31,7 @@ function tkrb_vis(button) {
   button.classList.toggle('active');
   button.textContent = isHidden ? "顯示" : "隱藏";
 }
+
 
 
 
