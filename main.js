@@ -3,7 +3,6 @@ fetch("item.json")
   .then(data => {
     const container = document.getElementById("alltkrb");
     data.forEach(item => {
-    
       const label = document.createElement("label");
       label.style.display = "block";
     
@@ -31,6 +30,7 @@ function tkrb_vis(button) {
   button.classList.toggle('active');
   button.textContent = isHidden ? "顯示" : "隱藏";
 }
+
 
 
 
