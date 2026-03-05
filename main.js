@@ -1,7 +1,7 @@
 
 fetch("item.json")
   .then(r => r.text())
-  .then(t => console.log(t));
+  .then(t => console.log(t.charCodeAt(0)));
 
 function rolechoose(button) {
   button.classList.toggle('active');
@@ -16,6 +16,7 @@ function tkrb_vis(button) {
   button.classList.toggle('active');
   button.textContent = isHidden ? "顯示" : "隱藏";
 }
+
 
 
 
