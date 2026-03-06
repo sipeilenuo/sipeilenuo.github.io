@@ -41,7 +41,8 @@ body {
 
 .main-area{
   display:flex;
-  border-left: 2px solid #d8d8d8; 
+  border-left: 2px solid #d4c28a;
+  padding-left: 10px;
 }
 .sidebar{
   width:220px;
@@ -50,6 +51,7 @@ body {
   color:white;
   padding:10px;
 }
+
 
 
 
