@@ -32,23 +32,25 @@ body {
 }
 
 .visible-false {
-    display: none;
+  display: none;
 }
 .content{
-    flex:1;
-    padding:20px;
+  flex:1;
+  padding:20px;
 }
 
 .main-area{
-    display:flex;
+  display:flex;
+  border-left: 2px solid #d8d8d8; 
 }
 .sidebar{
-    width:220px;
-    min-height:100vh;
-    background:#2a2a2a;
-    color:white;
-    padding:10px;
+  width:220px;
+  min-height:100vh;
+  background:#2a2a2a;
+  color:white;
+  padding:10px;
 }
+
 
 
 
