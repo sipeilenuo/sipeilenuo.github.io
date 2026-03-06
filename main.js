@@ -28,8 +28,9 @@ function tkrb_vis(button) {
   const isHidden = tkrblist.classList.toggle('visible-false');
   
   button.classList.toggle('active');
-  button.textContent = isHidden ? "顯示" : "隱藏";
+  //button.textContent = isHidden ? "顯示" : "隱藏";
 }
+
 
 
 
