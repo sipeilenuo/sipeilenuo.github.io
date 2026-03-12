@@ -11,7 +11,7 @@ fetch("item.json")
       checkbox.value = item.id;
     
       label.appendChild(checkbox);
-      label.appendChild(document.createTextNode(` ${item.id} - ${item.name}`));
+      label.appendChild(document.createTextNode(`${item.name}`));
     
       container.appendChild(label);
     });
@@ -30,6 +30,7 @@ function tkrb_vis(button) {
   button.classList.toggle('active');
   //button.textContent = isHidden ? "顯示" : "隱藏"; 
 }
+
 
 
 
