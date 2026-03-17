@@ -43,14 +43,16 @@ body {
   display:flex;
 }
 .sidebar{
-  width:220px;
-  min-height:100vh;
-  background:#2a2a2a;
-  color:white;
-  padding:10px;
-  border: 2px solid #d4c28a;
+  width:40px;                 /* 收起來的寬度 */
+  background:#f3f3f3;
+  border-right:1px solid #d8d8d8;
+  transition:width 0.25s;
+  overflow:hidden;
 }
-
+.layout{
+  display:flex;
+  height:100vh;
+}
 
 
 
