@@ -6,21 +6,26 @@
   <link rel="stylesheet" href="main.css">
 </head>
 <body>
-  <div class="topheader">
-    <button class="top-role-btn" onclick="tkrb_vis(this)">☰</button>
-    ForAllTime
-    <button data-role="ayn" class="top-role-btn" onclick="rolechoose(this)">1</button>
-    <button data-role="alkaid" class="top-role-btn" onclick="rolechoose(this)">2</button>
-    <button data-role="rorschach" class="top-role-btn" onclick="rolechoose(this)">3</button>
-    <button data-role="clarence" class="top-role-btn" onclick="rolechoose(this)">4</button>
-    <button data-role="emerald" class="top-role-btn" onclick="rolechoose(this)">5</button>
+  <div class="layout">
+    <div id="alltkrb" class="sidebar visible-false">
+      <button class="tkrb_btn" onclick="tkrb_vis(this)">☰</button>
+      <div class="tkrbchecklist"></div>
+    </div>
   </div>
   <div class="main-area">
-    <div id="alltkrb" class="sidebar visible-false"></div>
+    <div class="topheader">
+      ForAllTime
+      <button data-role="ayn" class="top-role-btn" onclick="rolechoose(this)">1</button>
+      <button data-role="alkaid" class="top-role-btn" onclick="rolechoose(this)">2</button>
+      <button data-role="rorschach" class="top-role-btn" onclick="rolechoose(this)">3</button>
+      <button data-role="clarence" class="top-role-btn" onclick="rolechoose(this)">4</button>
+      <button data-role="emerald" class="top-role-btn" onclick="rolechoose(this)">5</button>
+    </div>
     <div class="content">
       <h1>test1.8</h1>
     </div>
   </div>
+
   <script src="main.js"></script>
 </body>
 
