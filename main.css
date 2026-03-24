@@ -14,13 +14,11 @@ body {
 /*------*/
 /*左側------*/
 .sidebar{
+  width:40px; /* 收起來的寬度 */
   background:#f3f3f3;
   border-right:1px solid #d8d8d8;
   transition:width 0.25s;
   overflow:hidden;
-}
-.close {
-  width:40px; /* 收起來的寬度 */
 }
 .open {
   width:220px;
