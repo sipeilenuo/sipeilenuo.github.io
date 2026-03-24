@@ -2,7 +2,26 @@ body {
   background-color: rgb(41,41,41);
   color: white;
 }
+/*整體------*/
+.layout{
+  display:flex;
+  height:100vh;
+}
 
+.main-area{
+  display:flex;
+}
+/*------*/
+/*左側------*/
+.sidebar{
+  width:40px; /* 收起來的寬度 */
+  background:#f3f3f3;
+  border-right:1px solid #d8d8d8;
+  transition:width 0.25s;
+  overflow:hidden;
+}
+/*------*/
+/*頂部------*/
 .topheader {
   position: sticky;
   top: 0;
@@ -13,7 +32,14 @@ body {
   font-size: 20px;
   z-index: 1000; /* 最上層 */
 }
-
+/*------*/
+/*內文------*/
+.content{
+  flex:1;
+  padding:20px;
+}
+/*------*/
+/*按鈕------*/
 .top-role-btn {
   background-color: rgb(122,122,122);
   color: white;
@@ -30,29 +56,15 @@ body {
   border-radius: 10px;
   border: 2px solid #0080FF;
 }
-
+/*------*/
 .visible-false {
   display: none;
 }
-.content{
-  flex:1;
-  padding:20px;
+.visible-false {
+  display: none;
 }
 
-.main-area{
-  display:flex;
-}
-.sidebar{
-  width:40px;                 /* 收起來的寬度 */
-  background:#f3f3f3;
-  border-right:1px solid #d8d8d8;
-  transition:width 0.25s;
-  overflow:hidden;
-}
-.layout{
-  display:flex;
-  height:100vh;
-}
+
 
 
 
