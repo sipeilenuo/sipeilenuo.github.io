@@ -80,7 +80,9 @@ body {
   cursor:pointer;
 }
 /*------*/
-
+.visible-false{
+  display: none;
+}
 
 
 
