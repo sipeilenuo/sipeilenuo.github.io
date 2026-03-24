@@ -1,5 +1,5 @@
 body {
-  background-color: #600000;
+  background-color: #002142;
   color: white;
 }
 /*整體------*/
@@ -17,7 +17,7 @@ body {
 .sidebar{
   width:40px; /* 收起來的寬度 */
   background:#272727;
-  border:1px solid #F9F900;
+  border:1px solid #FFFF93;
   border-radius: 8px;
   transition:width 0.25s;
   overflow:hidden;
