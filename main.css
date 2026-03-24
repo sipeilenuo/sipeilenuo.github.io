@@ -14,29 +14,44 @@ body {
 /*------*/
 /*左側------*/
 .sidebar{
-  width:40px; /* 收起來的寬度 */
   background:#f3f3f3;
   border-right:1px solid #d8d8d8;
   transition:width 0.25s;
   overflow:hidden;
 }
+.close {
+  width:40px; /* 收起來的寬度 */
+}
+.open {
+  width:220px;
+}
+.tkrbchecklist{
+  padding:10px;
+}
 /*------*/
 /*頂部------*/
 .topheader {
-  position: sticky;
+  /* position: sticky;
   top: 0;
   background-color: #333;
   color: white;
   padding: 20px;
   text-align:left;
   font-size: 20px;
-  z-index: 1000; /* 最上層 */
+  z-index: 1000;
+  */
+  padding:10px;
+  border-bottom:1px solid #ddd;
 }
 /*------*/
 /*內文------*/
 .content{
-  flex:1;
   padding:20px;
+}
+.main{
+  flex:1;
+  display:flex;
+  flex-direction:column;
 }
 /*------*/
 /*按鈕------*/
@@ -56,13 +71,15 @@ body {
   border-radius: 10px;
   border: 2px solid #0080FF;
 }
+.tkrb_btn{
+  width:40px;
+  height:40px;
+  border:none;
+  background:none;
+  font-size:20px;
+  cursor:pointer;
+}
 /*------*/
-.visible-false {
-  display: none;
-}
-.visible-false {
-  display: none;
-}
 
 
 
