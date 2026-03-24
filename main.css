@@ -1,5 +1,5 @@
 body {
-  background-color: #272727;
+  background-color: #600000;
   color: white;
 }
 /*整體------*/
@@ -17,7 +17,7 @@ body {
   width:40px; /* 收起來的寬度 */
   background:#272727;
   border-width:5px;
-  border-color:#d8d8d8;
+  border-color:#F9F900;
   transition:width 0.25s;
   overflow:hidden;
 }
