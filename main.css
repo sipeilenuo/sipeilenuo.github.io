@@ -10,7 +10,9 @@ body {
 }
 
 .main-area{
+  flex:1;
   display:flex;
+  flex-direction:column;
 }
 /*------*/
 /*左側------*/
@@ -22,7 +24,7 @@ body {
   transition:width 0.25s;
   overflow:hidden;
 }
-.open {
+.sidebar.open {
   width:220px;
 }
 .tkrbchecklist{
