@@ -27,9 +27,6 @@ function tkrb_vis(button) {
   const tkrblist = document.getElementById("alltkrb");
   const isHidden = tkrblist.classList.toggle('open');
   
-  const tkrblistchk = document.getElementById("tkrbchecklist");
-  const isHiddenchk = tkrblistchk.classList.toggle('visible-false');
-  
   button.classList.toggle('active');
   //button.textContent = isHidden ? "顯示" : "隱藏"; 
 }
