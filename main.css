@@ -62,6 +62,13 @@ body {
   display:flex;
   flex-direction:column;
 }
+.item-box{
+  width:100px;
+  height:100px;
+  border:1px solid #FFFFCC;
+  border-radius:6px;
+  background-color: #272727;
+}
 /*------*/
 /*按鈕------*/
 .top-role-btn {
