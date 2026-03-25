@@ -9,6 +9,7 @@ fetch("item.json")
       const checkbox = document.createElement("input");
       checkbox.type = "checkbox";
       checkbox.value = item.id;
+      checkbox.addEventListener("change", onCheckboxChange);
     
       label.appendChild(checkbox);
       label.appendChild(document.createTextNode(`${item.name}`));
