@@ -27,8 +27,12 @@ body {
 .sidebar.open {
   width:220px;
 }
-.tkrbchecklist{
-  padding:10px;
+
+#tkrbchecklist{
+  display:none;
+}
+.sidebar.open #tkrbchecklist{
+  display:block;
 }
 /*------*/
 /*頂部------*/
