@@ -32,7 +32,24 @@ function tkrb_vis(button) {
   //button.textContent = isHidden ? "顯示" : "隱藏"; 
 }
 
+function onCheckboxChange(e){
+  const checkbox = e.target;
+  const id = checkbox.value;
+  const content = document.getElementById("content-area");
 
+  if(checkbox.checked){
+    const box = document.createElement("div");
+    box.className = "item-box";
+    box.setAttribute("data-id", id);
+    content.appendChild(box);
+  }
+  else{
+    const box = content.querySelector(`[data-id="${id}"]`);
+    if(box){
+      box.remove();
+    }
+  }
+}
 
 
 
