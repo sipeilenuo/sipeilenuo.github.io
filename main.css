@@ -53,6 +53,9 @@ body {
 /*內文------*/
 .content{
   padding:20px;
+  display:flex;
+  flex-wrap:wrap;   /* 自動換行 */
+  gap:10px;         /* 格子間距 */
 }
 .main{
   flex:1;
