@@ -1,7 +1,7 @@
 fetch("item.json")
   .then(res => res.json())
   .then(data => {
-    const container = document.getElementById("alltkrb");
+    const container = document.getElementById("tkrbchecklist");
     data.forEach(item => {
       const label = document.createElement("label");
       label.style.display = "block";
