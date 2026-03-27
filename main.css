@@ -21,7 +21,7 @@ body {
   background:#272727;
   /*border:1px solid #FFFFCC;
   border-radius: 15px;*/
-  /*border-left: 6px solid #FFFFCC;*/
+  border-right: 1px solid #FFFFCC;
   transition:width 0.25s;
   overflow-y:auto;
 }
