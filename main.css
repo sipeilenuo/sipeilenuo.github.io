@@ -19,7 +19,8 @@ body {
 .sidebar{
   width:40px; /* 收起來的寬度 */
   background:#272727;
-  border:1px solid #FFFFCC;
+  /*border:1px solid #FFFFCC;*/
+  border-left: 6px solid #FFFFCC;
   border-radius: 15px;
   transition:width 0.25s;
   overflow-y:auto;
