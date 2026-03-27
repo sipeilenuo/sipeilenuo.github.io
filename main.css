@@ -22,7 +22,7 @@ body {
   border:1px solid #FFFFCC;
   border-radius: 8px;
   transition:width 0.25s;
-  overflow:hidden;
+  overflow-y:auto;
 }
 .sidebar.open {
   width:220px;
